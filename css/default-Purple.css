@@ -1,0 +1,82 @@
+.slider .carousel-caption button,
+.about a.learn,
+.services .link button,
+.portfolio .advantage-web a,
+.option-box .color-option,
+.project i,
+.services .link button:hover,
+.contact-page button:hover,
+.contact-page button,
+.pricingTable .pricingTable-signup {
+  border: 2px solid #01BAFD;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item.active,
+.navbar-expand-lg .navbar-nav .nav-link:hover,
+.slider .carousel-caption button,
+.about a.learn,
+.project i,
+.services .link button,
+.portfolio .advantage-web a,
+.option-box .fa-gear,
+.slider a.chevron:hover,
+.features li i,
+.scroll-top:hover,
+.contact-page button,
+.pricingTable-header:before,
+.pricingTable .pricingTable-signup:hover {
+  background-color: #01BAFD;
+}
+
+.top-bar .links a:hover,
+.top-bar .icons i:hover,
+.copyright p span:hover,
+.testimonails .item-image i,
+.footer ul li:hover,
+.about-us span,
+.our-services span,
+.service .card h5:hover,
+.service .card i:hover,
+.portfolio-page span,
+.pricingTable-header .year,
+.price-value .value .currency,
+.price-value .value .amount,
+.price-value .value .month,
+.pricingTable .pricingTable-signup,
+.slider .carousel-caption h4 span {
+  color: #01BAFD;
+}
+
+.our-portfolio .list li {
+  border: 1px solid #01BAFD;
+}
+
+.pricingTable {
+  border-bottom: 10px solid #01BAFD;
+}
+
+.price-value ,
+.price-value .value
+{
+    border: 3px solid #01BAFD ;
+    border-bottom: none;
+    border-top: none;
+}
+
+.price-value:before,
+.price-value:after,
+.price-value .value:before,
+.price-value .value:after {
+  border: 3px solid #01BAFD;
+  border-bottom: none;
+  border-right: none;
+}
+
+
+.price-value:after,
+.price-value .value:after {
+  border-bottom: 3px solid #01BAFD;
+  border-right: 3px solid #01BAFD;
+   border-top: none;
+    border-left: none;
+}

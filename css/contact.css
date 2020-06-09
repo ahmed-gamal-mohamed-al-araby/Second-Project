@@ -1,0 +1,110 @@
+.our-contact {
+
+    background-image: url("../image/inner-bg.jpg");
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    z-index: 1;
+    background-size: cover
+}
+
+.our-contact .overlay {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: -1;
+}
+
+.our-contact h1 {
+
+    margin-bottom: 20px;
+    color: #FFF;
+}
+
+.our-contact p {
+
+    line-height: 2;
+    color: #FFF;
+}
+
+.contact-page h1 {
+
+    padding-top: 10%;
+    margin-bottom: 20px;
+}
+
+.contact-page p {
+    padding-bottom: 50px;
+    line-height: 2;
+    color: #999
+}
+
+.contact-page form {
+    background-color: #F2F3F5;
+    padding: 40px 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+    margin-bottom: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.contact-page input {
+    padding: 25px 30px;
+}
+
+.contact-page select {
+    color: #999;
+    width: 100%;
+    height: 50px;
+}
+
+.contact-page select option {
+    padding: 20px;
+}
+
+.contact-page textarea {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-page button {
+
+    padding: 15px 60px;
+    background-color: #FC6802;
+    text-decoration: none;
+    color: #FFF;
+    border: 2px solid #FC6802;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.contact-page button:hover {
+
+    background-color: #393939;
+    border: 2px solid #FC6802;
+}
+
+@media (max-width:786px) {
+
+    .contact-page form a {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:1200px) {
+
+    .contact-page form {margin-left: 0; margin-right: 0}
+    
+}
